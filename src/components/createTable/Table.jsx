@@ -33,51 +33,7 @@ function Table() {
            console.log(snapshot.val());
          });
 
-          //  if (snapshot.exists()) {
-          //    var SelectedFilterDataRow = {};
-          //    let snapshotRow = snapshot.val().row;
-          //    for (let key in snapshotRow) {
-          //      await realTimeDataBase
-          //        .ref('userData/' + userGmail)
-          //        .child('tableData/' + tableName)
-          //        .child('row/')
-          //        .child(key)
-          //        .
-          //    }
-
-          //    //  var SelectedFilterDataColumn = {};
-
-          //    //  let snapshotCol = snapshot.val().column;
-          //    //  for (let key in snapshotCol) {
-          //    //    if (snapshotCol[key] === selected) {
-          //    //      SelectedFilterDataColumn = {
-          //    //        ...SelectedFilterDataColumn,
-          //    //        [key]: snapshotCol[key],
-          //    //      };
-          //    //    }
-          //    //  }
-
-          //    //  for (let i = 0; i < gData.tableDataFromDatabase.length; i++) {
-          //    //    if (
-          //    //      Object.keys(gData.tableDataFromDatabase[i])[0] === tableName
-          //    //    ) {
-          //    //      let sliceData_1 = gData.tableDataFromDatabase.slice(0, i);
-          //    //      let sliceData_3 = gData.tableDataFromDatabase.slice(i + 1);
-          //    //      let sliceData_2 = {
-          //    //        [tableName]: {
-          //    //          column: SelectedFilterDataColumn,
-          //    //          row: SelectedFilterDataRow,
-          //    //        },
-          //    //      };
-          //    //      gData.setTableDataFromDatabase([
-          //    //        ...sliceData_1,
-          //    //        sliceData_2,
-          //    //        ...sliceData_3,
-          //    //      ]);
-          //    //      return;
-          //    //    }
-          //    //  }
-          //  }
+       
      
     }else if (searchValue.slice(-2) === '!=') {
       console.log('equalTo');
